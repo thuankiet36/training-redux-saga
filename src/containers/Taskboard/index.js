@@ -1,12 +1,12 @@
 import Button from '@material-ui/core/Button';
 import Grid from '@material-ui/core/Grid';
 import AddIcon from '@material-ui/icons/Add';
-import { withStyles } from "@material-ui/styles";
+import { withStyles } from '@material-ui/styles';
 import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import TaskForm from '../../components/TaskForm';
 import TaskList from '../../components/TaskList';
-import { STATUSES } from "../../constants";
+import { STATUSES } from '../../constants';
 import styles from './styles';
 
 const listTask = [
@@ -77,7 +77,6 @@ class Taskboard extends Component {
 
   render() {
     const { classes } = this.props;
-    var task = null;
     return (
       <div className={classes.taskBoard}>
         <Button
