@@ -6,7 +6,7 @@ import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import TaskForm from '../../components/TaskForm';
 import TaskList from '../../components/TaskList';
-import { STATUSES } from '../../constants';
+import { STATUSES } from "../../constants";
 import styles from './styles';
 
 const listTask = [
